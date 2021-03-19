@@ -125,3 +125,7 @@ h3 {
     transform: scale(1.05);
     transition: 0.6s ease-in-out;
 }
+
+#logoinsta{
+    font-family: 'Advent Pro', cursive;
+}
