@@ -1,0 +1,1 @@
+const allCross= document.querySelectorAll
