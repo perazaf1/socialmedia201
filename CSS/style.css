@@ -163,9 +163,10 @@ a {
     color: black;
 }
 
-#imagefondinsta{
+#fondinsta{
     padding-top: 60px;
     background: url(/IMAGES/instaimagedefond.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 599px;
 }
+
