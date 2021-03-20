@@ -248,7 +248,6 @@ a {
     margin: 65px 100px 0 100px;
     height: 250px;
     width: 55%;
-    
     max-width: 550px;
     float: left;
 }
@@ -266,6 +265,9 @@ a {
     box-shadow:3px 3px 10px 0 black;
 }
 
-#instaprincipe #instastory, #instaprincipe #instaapp{
+#instaprincipe #instalike{
+    float: left;
+}
+#instaprincipe #instainfluencer{
     float: right;
 }
