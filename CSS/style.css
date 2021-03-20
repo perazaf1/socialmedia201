@@ -179,6 +179,9 @@ a {
     font-weight: bold;
 }
 #instaintro{
+    margin-top: 10px;
+    margin: 0px;
+    padding: 0px;
     font-family: "Advent Pro" cursive;
     text-align: center;
     text-transform: uppercase;
@@ -192,4 +195,17 @@ a {
     color: rgb(255, 123, 0);
     font-size: 1.2em;
 }
+#instahistoireintro h3{
+    font-weight: bold;
+    font-family: "Advent Pro",cursive;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-size: 2em;
+    color: rgb(255, 123, 0);
+}
 
+#instahistoire{
+    background-color: #FFAE;
+    padding: 10px 0px 100px 0px;
+}
