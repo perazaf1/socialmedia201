@@ -195,15 +195,6 @@ a {
     color: rgb(255, 123, 0);
     font-size: 1.2em;
 }
-#instahistoireintro h3{
-    font-weight: bold;
-    font-family: "Advent Pro",cursive;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: none;
-    font-size: 2em;
-    color: rgb(255, 123, 0);
-}
 
 #instahistoire{
     background-color: rgb(248, 248, 225);
@@ -217,25 +208,33 @@ a {
 }
 
 
-
 /*PRINCIPE*/
 #instaprincipe{
     background-color: rgb(255, 255, 255);
     padding: 10px 0px 100px 0px;
 }
-#instaprincipe {
+#instaprincipe h3{
     font-family: "Advent Pro",cursive;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    color: rgb(248, 192, 8);
 }
+
 #instamessage{
-    height: auto;
-    background-color: rgb(255, 255, 255);
-    padding: 1px 2%;
+    background-image: url(/IMAGES/instamessage.jpg);
 }
-#instaprincipe h3{
-    padding-top: 60px;
-    font-size: 1em;
+#storyintsa{
+    background-image: url(/IMAGES/instastory.jpg);
+}
+#likeinsta{
+    background-image: url(/IMAGES/instalike.jpg);
+}
+#instaprincipe li{
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px 0px black;
 }
