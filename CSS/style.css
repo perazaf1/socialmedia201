@@ -170,4 +170,26 @@ a {
     height: 599px;
 }
 
+#instapresentation{
+    font-family: "Advent Pro" cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#instaintro{
+    font-family: "Advent Pro" cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(248, 4, 147);
+}
+#instahistoireintro{
+    font-family: "Dancing script",cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgb(255, 123, 0);
+    font-size: 1.2em;
+}
 
