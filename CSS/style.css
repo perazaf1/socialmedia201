@@ -232,18 +232,23 @@ a {
 }
 
 #instamessage{
-    background-image: url(/IMAGES/instamessage.jpg);
+    background-image: url(/IMAGES/instamessage.jpg)no-repeat fixed;
 }
 #storyintsa{
-    background-image: url(/IMAGES/instastory.jpg);
+    background-image: url(/IMAGES/instastory.jpg)no-repeat fixed;
 }
 #likeinsta{
-    background-image: url(/IMAGES/instalike.jpg);
+    background-image: url(/IMAGES/instalike.jpg)no-repeat fixed;
 }
+#instaapp{
+    background-image: url(/IMAGES/instaapp.jpg)no-repeat fixed;
+}
+
 #instaprincipe li{
     margin: 65px 100px 0 100px;
     height: 250px;
     width: 55%;
+    
     max-width: 550px;
     float: left;
 }
@@ -257,5 +262,10 @@ a {
     background-color: rgba(4, 175, 255, 0.658);
     float: right;
     margin: 50px -180px 0 0;
+    padding-top: 13px;
     box-shadow:3px 3px 10px 0 black;
+}
+
+#instaprincipe #instastory, #instaprincipe #instaapp{
+    float: right;
 }
