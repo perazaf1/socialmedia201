@@ -136,3 +136,36 @@ footer{
     font-family: "Advent Pro", cursive;
 }
 
+
+/*Instagram*/
+body{
+    font-family: "Advent Pro", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#imagefondinsta{
+    padding-top: 60px;
+    background: url(/IMAGES/instaimagedefond.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 599px;
+}
