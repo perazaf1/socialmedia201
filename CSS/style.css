@@ -187,24 +187,32 @@ a {
     text-transform: uppercase;
     color: rgb(248, 4, 147);
 }
-#instahistoireintro{
-    font-family: "Dancing script",cursive;
+#instahistoireintro h3{
+    font-family: "Advent Pro",cursive;
+    text-shadow: none;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: bold;
     color: rgb(255, 123, 0);
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 #instahistoire{
     background-color: rgb(248, 248, 225);
     padding: 10px 0px 100px 0px;
 }
-#instahistoireimages{
+.instahistoireimages{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px 10%;
+}
+#instahistoire p{
+    font-family: "Advent Pro",cursive;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-shadow: none;
+    color: black;
 }
 
 
@@ -215,10 +223,12 @@ a {
 }
 #instaprincipe h3{
     font-family: "Advent Pro",cursive;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: none;
+    color: rgb(255, 123, 0);
 }
 
 #instamessage{
@@ -232,9 +242,20 @@ a {
 }
 #instaprincipe li{
     margin: 65px 100px 0 100px;
-    height: 226px;
+    height: 250px;
     width: 55%;
     max-width: 550px;
     float: left;
-    box-shadow: 6px 6px 28px 0px black;
+}
+#instaprincipe p{
+    font-family: 'Advent Pro',cursive;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: center;
+    height: 170px;
+    width: 235px;
+    background-color: rgba(4, 175, 255, 0.658);
+    float: right;
+    margin: 50px -180px 0 0;
+    box-shadow:3px 3px 10px 0 black;
 }
