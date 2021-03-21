@@ -395,11 +395,62 @@ a {
   background-size: cover;
   height: 599px;
 }
-#tiktokintro h3 {
+
+#tiktokpresentationintro h2 {
   text-align: center;
   font-family: "Advent Pro", cursive;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 2em;
   color: rgb(0, 140, 255);
+}
+#tiktokpresentationintro {
+  text-align: center;
+  font-family: "Advent Pro";
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(0, 140, 265);
+}
+#tiktokpresentation {
+  background-color: rgb(248, 248, 250);
+  padding: 10px 0px 100px 0px;
+}
+#tiktokhistoire {
+  background-color: rgb(248, 248, 250);
+  padding: 10px 0px 100px 0px;
+}
+#tiktokhistoireintro h3 {
+  text-align: center;
+  font-family: "Advent Pro";
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(0, 140, 280);
+  text-shadow: none;
+}
+#tiktokhistoire li {
+  font-family: "Advent Pro", cursive;
+  font-weight: 590;
+  text-transform: none;
+  text-shadow: none;
+  color: black;
+  text-align: justify;
+}
+#tiktokhistoireimages p {
+  margin: 65px 100px 0 100px;
+  height: 250px;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+}
+#tiktokhistoireimages img {
+  border-radius: 10px;
+  box-shadow: black 5px 5px 15px 0;
+}
+
+#tiktokhistoireimages img:hover {
+  opacity: 0, 5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
 }
