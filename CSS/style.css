@@ -431,24 +431,25 @@ a {
 }
 #tiktokhistoire li {
   font-family: "Advent Pro", cursive;
-  font-weight: 590;
+  font-weight: 550;
+  font-size: 1.2em;
   text-transform: none;
   text-shadow: none;
   color: black;
-  text-align: justify;
+  text-align: center;
 }
 .tiktokhistoireimages img {
-  margin: 65px 100px 0 100px;
+  margin: 65px 100px 0 0;
   height: 250px;
   width: auto;
   max-width: max-content;
   float: right;
 }
+
 .tiktokhistoireimages img {
   border-radius: 10px;
   box-shadow: black 5px 5px 15px 0;
 }
-
 .tiktokhistoireimages img:hover {
   opacity: 0, 5;
   transform: scale(1.05);
