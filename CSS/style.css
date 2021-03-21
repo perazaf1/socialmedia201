@@ -237,6 +237,10 @@ a {
     font-size: 1.2em;
     font-weight: bold;
 }
+#instapresentation{
+    background-color: rgb(248, 248, 220);
+    padding: 10px 0px 100px 0px;
+}
 #instaintro{
     margin-top: 10px;
     margin: 0px;
@@ -385,3 +389,4 @@ a {
     text-transform: none;
     color: black;
 }
+
