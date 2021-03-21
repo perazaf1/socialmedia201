@@ -273,6 +273,16 @@ a {
     text-shadow: none;
     color: black;
 }
+#instacreateurs{
+    background-image: url(/IMAGES/instacreateurs.jpg)no-repeat fixed;
+}
+.instahistoireimages li{
+    margin: 65px 100px 0 100px;
+    height: 250px;
+    width: 55%;
+    max-width: 550px;
+    float: left
+}
 
 
 /*PRINCIPE*/
