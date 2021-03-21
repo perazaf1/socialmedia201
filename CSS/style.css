@@ -437,19 +437,19 @@ a {
   color: black;
   text-align: justify;
 }
-#tiktokhistoireimages p {
+.tiktokhistoireimages li {
   margin: 65px 100px 0 100px;
   height: 250px;
   width: 55%;
   max-width: 550px;
   float: left;
 }
-#tiktokhistoireimages img {
+#tiktokhistoireimages li img {
   border-radius: 10px;
   box-shadow: black 5px 5px 15px 0;
 }
 
-#tiktokhistoireimages img:hover {
+#tiktokhistoireimages li img:hover {
   opacity: 0, 5;
   transform: scale(1.05);
   transition: 0.6s ease-in-out;
