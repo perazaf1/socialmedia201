@@ -396,11 +396,11 @@ a {
   border-radius: 10px;
   box-shadow: black 5px 5px 15px 0;
 }
-#instastats img {
-  margin: 65px 100px 0 0;
-  height: 250px;
-  width: auto;
-  max-width: max-content;
+#instastats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
 }
 
 /*TIKTOK*/
