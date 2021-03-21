@@ -269,13 +269,12 @@ a {
 #instahistoire p{
     font-family: "Advent Pro",cursive;
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 550;
     text-shadow: none;
     color: black;
+    text-align: justify;
 }
-#instacreateurs{
-    background-image: url(/IMAGES/instacreateurs.jpg)no-repeat fixed;
-}
+
 .instahistoireimages li{
     margin: 65px 100px 0 100px;
     height: 250px;
@@ -283,11 +282,20 @@ a {
     max-width: 550px;
     float: left
 }
+.instahistoireimages img:hover{
+    opacity: 0,5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+.instahistoireimages img{
+    border-radius: 10px;
+    box-shadow: black 5px 5px 15px 0;
+}
 
 
 /*PRINCIPE*/
 #instaprincipe{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(231, 214, 214, 0.986);
     padding: 10px 0px 100px 0px;
 }
 #instaprincipe h3{
@@ -343,6 +351,15 @@ a {
     margin-left: -180px;
     box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
 }
+#instaprincipe img{
+    border-radius: 10px;
+    box-shadow: black 5px 5px 15px 0;
+}
+#instaprincipe img:hover{
+    opacity: 0,5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
 
 /*Quelques chiffres*/
 #instachiffresintro h3{
@@ -356,7 +373,7 @@ a {
     text-transform: uppercase;
 }
 #instachiffres{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 226, 213);
     padding: 10px 0px 100px 0px;;
 }
 #instachiffres li{
