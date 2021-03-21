@@ -395,3 +395,11 @@ a {
   background-size: cover;
   height: 599px;
 }
+#tiktokintro h3 {
+  text-align: center;
+  font-family: "Advent Pro", cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: rgb(0, 140, 255);
+}
