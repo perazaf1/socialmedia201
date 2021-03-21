@@ -477,7 +477,7 @@ a {
   font-family: "Advent Pro", cursive;
   font-size: 2em;
   font-weight: bold;
-  padding-top: 1em;
+  padding-top: 2em;
   text-shadow: none;
   color: rgba(0, 140, 280);
 }
@@ -494,4 +494,19 @@ a {
   opacity: 0, 5;
   transform: scale(1.05);
   transition: 0.6s ease-in-out;
+}
+#tiktokprincipe p {
+  text-align: center;
+  text-transform: none;
+  font-family: "Advent Pro", cursive;
+  font-size: 1.2em;
+  font-weight: 575;
+  text-shadow: none;
+  color: black;
+}
+.tiktokprincipe1 {
+  margin: 10px 100px 0px 100px;
+  width: auto;
+  max-width: max-content;
+  float: right;
 }
