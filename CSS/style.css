@@ -387,6 +387,21 @@ a {
   text-transform: none;
   color: black;
 }
+#instastats img:hover {
+  opacity: 0, 5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+#instastats img {
+  border-radius: 10px;
+  box-shadow: black 5px 5px 15px 0;
+}
+#instastats img {
+  margin: 65px 100px 0 0;
+  height: 250px;
+  width: auto;
+  max-width: max-content;
+}
 
 /*TIKTOK*/
 #fondtiktok {
@@ -413,11 +428,11 @@ a {
   color: rgba(0, 140, 265);
 }
 #tiktokpresentation {
-  background-color: rgb(248, 248, 250);
+  background-color: #FFAE1;
   padding: 10px 0px 100px 0px;
 }
 #tiktokhistoire {
-  background-color: rgb(248, 248, 250);
+  background-color: #FFAE1;
   padding: 10px 0px 100px 0px;
 }
 #tiktokhistoireintro h3 {
@@ -454,4 +469,19 @@ a {
   opacity: 0, 5;
   transform: scale(1.05);
   transition: 0.6s ease-in-out;
+}
+
+#tiktokprincipe h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "DAvent Pro", cursive;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 1em;
+  text-shadow: none;
+  color: rgba(0, 140, 280);
+}
+#tiktokprincipe {
+  background-color: #FFAE1;
+  padding: 10px 0px 100px 0px;
 }
