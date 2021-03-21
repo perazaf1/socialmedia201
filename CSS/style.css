@@ -453,7 +453,7 @@ a {
   color: black;
   text-align: justify;
 }
-.tiktokhistoireimages li {
+#tiktokhistoireimages li {
   margin: 65px 100px 0 0;
   height: 250px;
   width: auto;
@@ -499,7 +499,7 @@ a {
   text-align: center;
   text-transform: none;
   font-family: "Advent Pro", cursive;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 575;
   text-shadow: none;
   color: black;
