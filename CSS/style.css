@@ -451,14 +451,14 @@ a {
   text-transform: none;
   text-shadow: none;
   color: black;
-  text-align: justify;
+  text-align: center;
 }
 #tiktokhistoireimages li {
   margin: 65px 100px 0 0;
   height: 250px;
   width: auto;
   max-width: max-content;
-  float: right;
+  float: center;
 }
 
 .tiktokhistoireimages img {
@@ -489,6 +489,7 @@ a {
 .tiktokprincipe1 img {
   border-radius: 10px;
   box-shadow: black 5px 5px 15px 0;
+  position: relative;
 }
 .tiktokprincipe1 img:hover {
   opacity: 0, 5;
