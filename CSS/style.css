@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Dancing+Script&display=swap");
+
+body {
+  font-family: "Advent Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*NavBar*/
+
+nav {
+  overflow: hidden;
+  background-color: rgba(4, 175, 255, 0.658);
+  position: fixed;
+  width: 100%;
+  opacity: 0, 9;
+}
+
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+#logoinsta {
+  font-family: "Advent Pro", cursive;
+  font-weight: bold;
+}
+
+#logotiktok {
+  font-family: "Advent Pro", cursive;
+  font-weight: bold;
+}
+#logo {
+  font-family: "Dancing script", cursive;
+  font-weight: bold;
+  float: left;
+}
+
+/*Image principale*/
+#imageprincipale {
+  padding-top: 60px;
+  background: url(/IMAGES/imageprincipale.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 599px;
+}
+
+h1 {
+  font-family: "Dancing script", cursive;
+  text-align: center;
+  color: rgba(240, 229, 215, 0.897);
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+
+#premiertrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: rgba(240, 229, 215, 0.897);
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  font-family: "Advent Pro", cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+
+/*PRESENTATION*/
+#presentation {
+  background-color: rgba(240, 229, 215, 0.897);
+  padding: 10px 0px 100px 0px;
+}
+#Introduction {
+  padding: 0px 20%;
+}
+#differentsreseaux {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+
+.imagesreseaux h4 {
+  font-family: "Dancing script", cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+
+.imagesreseaux img {
+  border-radius: 5px;
+  box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.7);
+}
+.imagesreseaux img:hover {
+  opacity: 0, 5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+
+#logoinsta {
+  font-family: "Advent Pro", cursive;
+}
+/* ******************* FOOTER ******************** */
+footer {
+  background-color: #524a3a;
+  color: #fffae1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input,
+textarea,
+button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: "Advent Pro", sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: #fffae1;
+}
+button:hover {
+  background-color: #e55039;
+  color: #fffae1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #fffae1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #fffae1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: #fffae1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
+
+/*Instagram*/
+body {
+  font-family: "Advent Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#fondinsta {
+  padding-top: 60px;
+  background: url(/IMAGES/instaimagedefond.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 599px;
+}
+
+#instapresentation {
+  font-family: "Advent Pro" cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#instapresentation {
+  background-color: rgb(248, 248, 220);
+  padding: 10px 0px 100px 0px;
+}
+#instaintro {
+  margin-top: 10px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Advent Pro" cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(248, 4, 147);
+}
+#instahistoireintro h3 {
+  font-family: "Advent Pro", cursive;
+  text-shadow: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(255, 123, 0);
+  font-size: 2em;
+}
+
+#instahistoire {
+  background-color: rgb(248, 248, 225);
+  padding: 10px 0px 100px 0px;
+}
+.instahistoireimages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+#instahistoire p {
+  font-family: "Advent Pro", cursive;
+  font-size: 1.2em;
+  font-weight: 550;
+  text-shadow: none;
+  color: black;
+  text-align: justify;
+}
+
+.instahistoireimages li {
+  margin: 65px 100px 0 100px;
+  height: 250px;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+}
+.instahistoireimages img:hover {
+  opacity: 0, 5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+.instahistoireimages img {
+  border-radius: 10px;
+  box-shadow: black 5px 5px 15px 0;
+}
+
+/*PRINCIPE*/
+#instaprincipe {
+  background-color: rgb(248, 248, 240);
+  padding: 10px 0px 100px 0px;
+}
+#instaprincipe h3 {
+  font-family: "Advent Pro", cursive;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: rgb(255, 123, 0);
+}
+
+#instamessage {
+  background-image: url(/IMAGES/instamessage.jpg) no-repeat fixed;
+}
+#storyintsa {
+  background-image: url(/IMAGES/instastory.jpg) no-repeat fixed;
+}
+#likeinsta {
+  background-image: url(/IMAGES/instalike.jpg) no-repeat fixed;
+}
+#instaapp {
+  background-image: url(/IMAGES/instaapp.jpg) no-repeat fixed;
+}
+
+#instaprincipe li {
+  margin: 65px 100px 0 100px;
+  height: 250px;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+}
+#instaprincipe p {
+  font-family: "Advent Pro", cursive;
+  font-size: 1.3em;
+  font-weight: 650;
+  text-align: center;
+  height: 170px;
+  width: 235px;
+  background-color: rgba(4, 175, 255, 0.658);
+  float: right;
+  margin: 50px -180px 0 0;
+  padding-top: 13px;
+  box-shadow: 3px 3px 10px 0 black;
+}
+
+#instaprincipe #storyinsta {
+  float: left;
+}
+#instaprincipe #instainfluencer {
+  float: right;
+  background-color: cyan;
+  margin-left: -180px;
+  box-shadow: -4px 4px 0 1px rgba(15, 154, 156, 1);
+}
+#instaprincipe img {
+  border-radius: 10px;
+  box-shadow: black 5px 5px 15px 0;
+}
+#instaprincipe img:hover {
+  opacity: 0, 5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+
+/*Quelques chiffres*/
+#instachiffresintro h3 {
+  text-align: center;
+  padding-top: 56em;
+  font-family: "Advent Pro", cursive;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(255, 153, 0);
+  text-shadow: none;
+  text-transform: uppercase;
+}
+#instachiffres {
+  background-color: rgb(248, 248, 250);
+  padding: 10px 0px 100px 0px;
+}
+#instachiffres li {
+  font-family: "Advent Pro", cursive;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 575;
+  text-shadow: none;
+  text-transform: none;
+  color: black;
+}
+#instastats img:hover {
+  opacity: 0, 5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+#instastats img {
+  border-radius: 10px;
+  box-shadow: black 5px 5px 15px 0;
+}
+#instastats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+
+/*TIKTOK*/
+#fondtiktok {
+  padding-top: 60px;
+  background: url(/IMAGES/tiktokimagefond.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 599px;
+}
+
+#tiktokpresentationintro h2 {
+  text-align: center;
+  font-family: "Advent Pro", cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: rgb(0, 140, 255);
+}
+#tiktokpresentationintro {
+  text-align: center;
+  font-family: "Advent Pro";
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(0, 140, 265);
+}
+#tiktokpresentation {
+  background-color: rgb(248, 248, 240);
+  padding: 10px 0px 100px 0px;
+}
+#tiktokhistoire {
+  background-color: rgb(248, 248, 240);
+  padding: 10px 0px 100px 0px;
+}
+#tiktokhistoireintro h3 {
+  text-align: center;
+  font-family: "Advent Pro";
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(0, 140, 280);
+  text-shadow: none;
+}
+#tiktokhistoire li {
+  font-family: "Advent Pro", cursive;
+  font-weight: 550;
+  font-size: 1.2em;
+  text-transform: none;
+  text-shadow: none;
+  color: black;
+  text-align: center;
+}
+#tiktokhistoireimages li {
+  margin: 65px 100px 0 0;
+  height: 250px;
+  width: auto;
+  max-width: max-content;
+  float: center;
+}
+
+.tiktokhistoireimages img {
+  border-radius: 10px;
+  box-shadow: black 5px 5px 15px 0;
+}
+.tiktokhistoireimages img:hover {
+  opacity: 0, 5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+
+#tiktokprincipe h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Advent Pro", cursive;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 2em;
+  text-shadow: none;
+  color: rgba(0, 140, 280);
+}
+#tiktokprincipe {
+  background-color: rgb(248, 248, 240);
+  padding: 10px 0px 100px 0px;
+}
+
+.tiktokprincipe1 img {
+  border-radius: 10px;
+  box-shadow: black 5px 5px 15px 0;
+  position: relative;
+}
+.tiktokprincipe1 img:hover {
+  opacity: 0, 5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+#tiktokprincipe p {
+  text-align: center;
+  text-transform: none;
+  font-family: "Advent Pro", cursive;
+  font-size: 1.3em;
+  font-weight: 575;
+  text-shadow: none;
+  color: black;
+}
+.tiktokprincipe1 {
+  margin: 10px 100px 0px 100px;
+  width: auto;
+  max-width: max-content;
+  float: right;
+}
+
+#tiktokchiffres {
+  background-color: rgb(248, 248, 240);
+  padding: 10px 0px 100px 0px;
+}
+#tiktokchiffresintro h3 {
+  padding-top: 32em;
+  text-align: center;
+  text-shadow: none;
+  font-family: "Advent Pro", cursive;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(0, 140, 255);
+}
+#tiktokstats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+#tiktokstats img {
+  border-radius: 10px;
+  box-shadow: black 5px 5px 15px 0;
+}
+#tiktokstats img:hover {
+  opacity: 0, 5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+#tiktokstats {
+  background-color: rgb(248, 248, 240);
+}
+#tiktokstatspresentation h3 {
+  font-family: "Advent Pro", cursive;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(0, 140, 255);
+  text-shadow: none;
+  text-transform: uppercase;
+}
+#tiktokpresentation div {
+  background-color: rgb(248, 248, 240);
+}
