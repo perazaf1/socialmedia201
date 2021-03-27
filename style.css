@@ -597,3 +597,13 @@ a {
   float: center;
 }
 
+#snaphistoire p{
+  font-family: "Advent Pro", cursive;
+  font-weight: 550;
+  font-size: 1.2em;
+  text-transform: none;
+  text-shadow: none;
+  color: black;
+  text-align: center;
+}
+}
