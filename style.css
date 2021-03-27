@@ -589,13 +589,6 @@ a {
   color: rgb(0, 140, 255);
 }
 
-.snaphistoireimages li{
-  margin: 65px 100px 0 0;
-  height: 250px;
-  width: auto;
-  max-width: max-content;
-  float: center;
-}
 
 #snaphistoire p{
   font-family: "Advent Pro", cursive;
@@ -620,29 +613,21 @@ a {
   padding: 10px 0px 100px 0px;
 }
 .snaphistoireimages img{
-  margin: 10px 1000px 0px 100px;
+  margin: 10px 100px 0px 100px;
   width: auto;
   max-width: max-content;
-  float: center;
+  margin-right: 100px;
+  float: unset;
 }
 .snaphistoireimages img {
   border-radius: 10px;
   box-shadow: black 5px 5px 15px 0;
-  position: relative;
 }
 .snaphistoireimages img:hover {
   opacity: 0, 5;
   transform: scale(1.05);
   transition: 0.6s ease-in-out;
 }
-#snaphistoire p {
-  text-align: center;
-  text-transform: none;
-  font-family: "Advent Pro", cursive;
-  font-size: 1.3em;
-  font-weight: 575;
-  text-shadow: none;
-  color: black;
-}
+
 
 
