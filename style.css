@@ -619,6 +619,12 @@ a {
   background-color: rgb(248, 248, 240);
   padding: 10px 0px 100px 0px;
 }
+.snaphistoireimages img{
+  margin: 10px 1000px 0px 100px;
+  width: auto;
+  max-width: max-content;
+  float: center;
+}
 .snaphistoireimages img {
   border-radius: 10px;
   box-shadow: black 5px 5px 15px 0;
@@ -638,9 +644,5 @@ a {
   text-shadow: none;
   color: black;
 }
-.snaphistoireimages img{
-  margin: 10px 100px 0px 100px;
-  width: auto;
-  max-width: max-content;
-  float: right;
-}
+
+
