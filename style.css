@@ -588,3 +588,12 @@ a {
   font-size: 2em;
   color: rgb(0, 140, 255);
 }
+
+.snaphistoireimages li{
+  margin: 65px 100px 0 0;
+  height: 250px;
+  width: auto;
+  max-width: max-content;
+  float: center;
+}
+
