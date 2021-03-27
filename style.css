@@ -555,3 +555,12 @@ a {
 #tiktokpresentation div {
   background-color: rgb(248, 248, 240);
 }
+
+/*Snapchat*/
+
+#fondsnap{
+    padding-top: 60px;
+    background:url(/IMAGES/snapchatimagedefond.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 599px;
+}
