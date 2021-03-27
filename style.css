@@ -60,6 +60,10 @@ header li a {
   font-weight: bold;
   float: left;
 }
+#logosnap{
+  font-family: "Advent Pro", cursive;
+  font-weight: bold;
+}
 
 /*Image principale*/
 #imageprincipale {
