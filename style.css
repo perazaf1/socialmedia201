@@ -198,6 +198,21 @@ button:hover {
   transform: scale(1.5);
   transition: 0.1s;
 }
+.pulse-anim{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #000;
+  margin: 100px auto 0;
+  box-shadow: 0 0 0 0 #000;
+  animation: pulse 1.3s infinite;
+  margin-bottom: 10em;
+}
+@keyframes pulse{
+    to{
+      box-shadow: 0 0 0 18px rgba(0, 0, 0, 0.01);
+    }
+}
 
 /*Instagram*/
 body {
