@@ -214,6 +214,10 @@ button:hover {
       box-shadow: 0 0 0 18px rgba(0, 0, 0, 0.01);
     }
 }
+.pulse-anim{
+  background-color: rgba(240, 229, 215, 0.897);
+  padding: 10px 0px 100px 0px;
+}
 
 
 /*Instagram*/
@@ -645,6 +649,7 @@ a {
   transform: scale(1.05);
   transition: 0.6s ease-in-out;
 }
+
 
 
 
