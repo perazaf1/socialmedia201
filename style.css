@@ -320,6 +320,61 @@ a {
   background-size: cover;
   height: 599px;
 }
+.lettresintsa {
+  color: #f30000;
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin-bottom: 150px;
+  animation: neon linear 1.2s infinite;
+}
+@keyframes neon{
+  0%{
+    color: #ff2600;
+    text-shadow: 0 0 7px #ff7b00;
+  }
+  90%{
+    color: #77006d;
+    text-shadow: none;
+  }
+  100%{
+    color: #ff2600;
+    text-shadow: 0 0 7px #ff7b00;
+  }
+}
+.lettre:nth-child(1){
+  animation-delay: 0.1s;
+}
+.lettre:nth-child(2){
+  animation-delay: 0.2s;
+}
+.lettre:nth-child(3){
+  animation-delay: 0.3s;
+}
+.lettre:nth-child(4){
+  animation-delay: 0.4s;
+}
+.lettre:nth-child(5){
+  animation-delay: 0.5s;
+}
+.lettre:nth-child(6){
+  animation-delay: 0.6s;
+}
+.lettre:nth-child(7){
+  animation-delay: 0.7s;
+}
+.lettre:nth-child(8){
+  animation-delay: 0.8s;
+}
+.lettre:nth-child(9){
+  animation-delay: 0.9s;
+}
+.instatitre{
+  background:rgba(240, 229, 215, 0.897);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
 
 #instapresentation {
   font-family: "Advent Pro" cursive;
@@ -495,9 +550,10 @@ a {
   justify-content: space-between;
   padding: 30px 10%;
 }
+.
 
 /*TIKTOK*/
-#fondtiktok {
+#fondtiktok{
   padding-top: 60px;
   background: url(/IMAGES/tiktokimagefond.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
