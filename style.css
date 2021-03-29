@@ -320,7 +320,7 @@ a {
   background-size: cover;
   height: 599px;
 }
-.lettresintsa {
+.lettreintsa {
   color: #f30000;
   font-size: 80px;
   letter-spacing: 15px;
@@ -369,11 +369,13 @@ a {
   animation-delay: 0.9s;
 }
 .instatitre{
-  background:rgba(240, 229, 215, 0.897);
+  background:rgb(248, 248, 220);
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 0px;
+  height: 30px;
+  margin-top: 70px;
 }
 
 #instapresentation {
