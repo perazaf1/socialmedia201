@@ -341,31 +341,31 @@ a {
     text-shadow: 0 0 7px #ff7b00;
   }
 }
-.lettre:nth-child(1){
+.lettreintsa:nth-child(1){
   animation-delay: 0.1s;
 }
-.lettre:nth-child(2){
+.lettreinsta:nth-child(2){
   animation-delay: 0.2s;
 }
-.lettre:nth-child(3){
+.lettreinsta:nth-child(3){
   animation-delay: 0.3s;
 }
-.lettre:nth-child(4){
+.lettreintsa:nth-child(4){
   animation-delay: 0.4s;
 }
-.lettre:nth-child(5){
+.lettreintsa:nth-child(5){
   animation-delay: 0.5s;
 }
-.lettre:nth-child(6){
+.lettreintsa:nth-child(6){
   animation-delay: 0.6s;
 }
-.lettre:nth-child(7){
+.lettreintsa:nth-child(7){
   animation-delay: 0.7s;
 }
-.lettre:nth-child(8){
+.lettreintsa:nth-child(8){
   animation-delay: 0.8s;
 }
-.lettre:nth-child(9){
+.lettreintsa:nth-child(9){
   animation-delay: 0.9s;
 }
 .instatitre{
@@ -376,6 +376,7 @@ a {
   margin-bottom: 0px;
   height: 30px;
   margin-top: 70px;
+  font-family: 'Advent Pro', cursive;
 }
 
 #instapresentation {
