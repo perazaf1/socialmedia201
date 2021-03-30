@@ -837,6 +837,7 @@ a {
   transform: scale(1.05);
   transition: 0.6s ease-in-out;
 }
+
 #snapprincipe{
   background-color: rgb(248, 248, 240);
   padding: 10px 0px 100px 0px;
@@ -876,6 +877,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 #snapchiffres{
   background-color: rgb(248, 248, 240);
   padding: 10px 0px 100px 0px;
@@ -899,6 +901,7 @@ a {
   text-align: center;
   padding-top: 10px;
 }
+
 #snapstats{
   background-color: rgb(248, 248, 240);
   padding: 10px 0px 100px 0px;
@@ -916,6 +919,7 @@ a {
   background-color: rgb(248, 248, 240);
   padding: 10px 0px 100px 0px;
 }
+
 
 #snapstats {
   padding-top: 10px;
@@ -947,6 +951,7 @@ a {
   font-family: 'Advent Pro',cursive;
   margin-top: 50px;
 }
+
 @keyframes neonsnap{
   0%{
     color: #ffee00;
@@ -961,6 +966,7 @@ a {
     text-shadow: 0 0 7px #cc8809;
   }
 }
+
 .snaplettre:nth-child(1){
   animation-delay: 0.1s;
 }
