@@ -568,6 +568,61 @@ a {
   background-size: cover;
   height: 599px;
 }
+.tiktoklettre{
+  align-items: center;
+  
+}
+.tiktoklettre {
+  color: #000000;
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin-bottom: 150px;
+  animation: neontt linear 1.2s infinite;
+  font-family: 'Advent Pro',cursive;
+  margin-top: 50px;
+}
+@keyframes neontt{
+  0%{
+    color: #ff046c;
+    text-shadow: 0 0 7px #ff0597ef;
+  }
+  90%{
+    color: #08fff3;
+    text-shadow: none;
+  }
+  100%{
+    color: #ff046c;
+    text-shadow: 0 0 7px  #ff0597ef;
+  }
+}
+.tiktoklettre:nth-child(1){
+  animation-delay: 0.1s;
+}
+.tiktoklettre:nth-child(2){
+  animation-delay: 0.2s;
+}
+.tiktoklettre:nth-child(3){
+  animation-delay: 0.3s;
+}
+.tiktoklettre:nth-child(4){
+  animation-delay: 0.4s;
+}
+.tiktoklettre:nth-child(5){
+  animation-delay: 0.5s;
+}
+.tiktoklettre:nth-child(6){
+  animation-delay: 0.6s;
+}
+
+.tikoktitre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  height: 30px;
+  margin-top: 70px;
+  font-family: 'Advent Pro', cursive;
+}
 
 #tiktokpresentationintro h2 {
   text-align: center;
